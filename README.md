@@ -1,34 +1,35 @@
-# Coffee Sales Analysis
+# Project Overview
 ## This project focuses on analyzing coffee sales data to uncover trends and insights that can help inform business decisions. The analysis includes key metrics such as revenue, product popularity, and customer preferences.
 
 ## Features
 - Coffee sales performance tracking
 - Customer segmentation analysis
 - Insights on product popularity
+
+## Tools used
   
-## Objective 1
-Prepare the data for analysis
-Explore the coffee shop dataset, conduct some basic data QA and profiling, and add calculated date and time fields to prepare the data for analysis.
+## Explolatory Analysis
 
-Add new columns to calculate the following;
-Revenue (Price* Quantity)
-Add month and day of the week based on the transaction date
-Extract hour from transaction time
-Objective 2
-Explore the data with Pivot Tables
-The second objective is to slice and dice the coffee shop data with Excel PivotTables, and create views to analyze time series and product-level trends.
+Explored the coffee shop dataset, conducted some basic data QA and profiling, and added calculated date and time fields to prepare the data for analysis.
 
-Pivot tables to show the following;
-number of transactions by day of week and hour of day
-number of transactions by category sorted descending by transactions
-number of transactions by product type sorted descending and filtered to the top 15 transactions
-Objective 3
-Build a dynamic dashboard
-Final objective is to visualize the data with Pivot Charts, design an interactive dashboard, and identify insights and recommendations for the coffee shop.
-
-Add Pivot Charts to show revenue by month as a line chart, transactions by day of week and hour of day as column charts, and transactions by product category as a bar chart
-Add a slicer for store location, and connect it to all of the PivotTables on the sheet
-Adjust formatting, alignment and polish to finalize the dashboard
+### Added new columns to calculate the following;
+- Revenue (Price* Quantity)
+- Extracted month and day of the week based on the transaction date
+- Extracted hour from transaction time
+### The second objective was to slice and dice the coffee shop data using Excel PivotTables, and create views to analyze time series and product-level trend
+- total revenue by month
+ ![total revenue by month](https://github.com/user-attachments/assets/48ad127c-c0d5-46b8-aa35-34df2615009e)
+- number of transactions by  hour of day
+ ![transactions by hour of day](https://github.com/user-attachments/assets/85b20cb5-d383-425c-bdb2-5e90187c343c)
+- number of transactions by day of week 
+![transactions by day of week](https://github.com/user-attachments/assets/088db934-59a4-4226-9fbf-fef5ec70716c)
+- number of transactions by category sorted descending by transactions
+![transactions by product category](https://github.com/user-attachments/assets/c1edbacb-ba44-4a48-b15a-1f3a02e80e7a)
+- number of transactions by product type sorted descending and filtered to the top 15 transactions
+![top 15 products](https://github.com/user-attachments/assets/cb4025a6-ce4b-400f-a638-5d315ff95bc3)
 
 
-# Recommendations
+## Insights
+
+## Recommendations
+- lower manhatan is not making any sales after 6pm. closing at 6pm may hepl cut down costs and improve margins
